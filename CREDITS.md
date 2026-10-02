@@ -16,7 +16,6 @@
 - **Dolphin Emulator** e a equipe do Dolphin, pelo emulador.
 - **Dolphin VR ReduX** e seus autores, pelo Dolphin com suporte a OpenXR em que o mod roda.
 - **Khronos Group**, pelo OpenXR (cabeçalhos com licença Apache 2.0, veja [licenses/OpenXR-Apache-2.0.txt](licenses/OpenXR-Apache-2.0.txt)).
-- A **comunidade de decompilação do Super Mario Galaxy** (Petari), usada como referência de leitura.
 
 ## Aviso
 
