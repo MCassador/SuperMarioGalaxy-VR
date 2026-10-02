@@ -19,4 +19,4 @@ Primeira versão pública do Super Mario Galaxy VR.
 
 ## Instalação
 
-Veja [INSTALL.md](INSTALL.md). Extraia o pacote dentro da pasta do Dolphin VR ReduX e execute `instalar-smg-vr.bat`.
+Veja [INSTALL.md](INSTALL.md). Extraia o pacote em qualquer pasta, feche o Dolphin e execute `instalar-smg-vr.bat` (tudo é automático).

@@ -112,7 +112,7 @@ echo   Instalacao concluida com sucesso!
 echo.
 echo   Para jogar:
 echo   1. Conecte o Quest ao PC (Virtual Desktop, Air Link ou Link)
-echo   2. Abra o Dolphin.exe nesta pasta
+echo   2. Abra o Dolphin VR ReduX (Dolphin.exe)
 echo   3. Carregue o jogo Super Mario Galaxy, versao americana (RMGE01).
 echo      Outras versoes (europeia, japonesa) nao funcionam com o mod.
 echo   4. Trocar de camera: clique do analogico direito

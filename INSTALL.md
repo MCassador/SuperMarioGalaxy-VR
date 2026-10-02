@@ -10,15 +10,15 @@
 ## Passo a passo
 
 1. Feche o Dolphin.
-2. Extraia este pacote **dentro da pasta do Dolphin VR ReduX** (a pasta onde está o `Dolphin.exe`).
-   Devem ficar lado a lado: `Dolphin.exe`, `instalar-smg-vr.bat` e a pasta `SMG-VR`.
-3. Execute `instalar-smg-vr.bat`. Ele:
-   - copia a camada VR e a configuração para `Documentos\Dolphin Emulator\SMG-VR`;
+2. Extraia o pacote em **qualquer pasta** (por exemplo, na Área de Trabalho). Só se o seu Dolphin for **portátil** (existe um `portable.txt` ao lado do `Dolphin.exe`) é que o pacote deve ser extraído dentro da pasta do Dolphin.
+3. Dê dois cliques em `instalar-smg-vr.bat`. **Tudo é automático**, não pergunta nada. Ele:
+   - acha sozinho a pasta de usuário do Dolphin (portátil, registro, Documentos ou AppData);
+   - cria a pasta `Documentos\Dolphin Emulator\SMG-VR` e copia para lá a camada VR e a configuração;
    - registra a camada OpenXR (chave `HKCU\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Implicit`);
    - instala os códigos do jogo (`GameSettings\RMGE01.ini`), os ajustes de VR (`GameSettingsVR\RMGE01.ini`) e os controles;
    - liga os cheats do Dolphin (sem isso os códigos não rodam);
-   - guarda cópias de segurança do que substituiu em `Backup`.
-4. Conecte o Quest ao PC (Virtual Desktop, Air Link ou Link), abra o `Dolphin.exe` e inicie o Super Mario Galaxy (versão americana).
+   - guarda cópias de segurança do que substituiu na pasta `Backup` do Dolphin.
+4. Conecte o Quest ao PC (Virtual Desktop, Air Link ou Link), abra o Dolphin VR ReduX e inicie o Super Mario Galaxy (versão americana).
 
 ## Usando
 
