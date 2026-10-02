@@ -1,0 +1,52 @@
+# Super Mario Galaxy VR
+
+**Version 1** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
+
+O **Super Mario Galaxy** (versão americana, RMGE01) em realidade virtual, dentro do Dolphin VR ReduX:
+primeira pessoa com o corpo, os braços e as luvas do Mario nos seus controles, três câmeras e um
+menu dentro do óculos.
+
+[Instalação](INSTALL.md) · [Problemas conhecidos](KNOWN-ISSUES.md) · [Créditos](CREDITS.md) · [Notas da versão](RELEASE_NOTES.md)
+
+> Este pacote **não** contém o jogo nem o Dolphin. Você precisa da sua própria cópia do Super Mario Galaxy
+> e do Dolphin VR ReduX (build com OpenXR, ramo *openxr-work*).
+
+## As três câmeras
+
+Clique no analógico direito (R3) para trocar, sempre nesta ordem:
+
+| Câmera | Como é |
+| --- | --- |
+| **Primeira pessoa** | Você vê pelos olhos do Mario. As luvas e os braços seguem os seus controles. |
+| **Câmera 200** | Câmera atrás do Mario, horizonte reto, distância ajustável com o analógico direito. |
+| **Terceira pessoa** | Segue a câmera do jogo, nivelada, desvia de pedras e paredes, com suavidade ajustável. |
+
+## O que o mod faz (por MCassador)
+
+- Mãos e luvas do próprio Mario seguindo os controles (e escolhendo a pose da luva pelos dedos, quando o óculos rastreia as mãos).
+- Menu dentro do óculos: **segure B + Y**. Câmeras, mãos, luvas, corte de objetos, quadros por segundo e tamanho do HUD.
+- Sem os reflexos e a refração de tela que quebram em VR (água, gelo, cristais).
+- Corte de objetos pela direção da cabeça, para ganhar FPS (opcional, no menu).
+- Correções de câmera para balanço de cipó, voos entre planetas, quedas e rolagens (o corpo não passa na frente da câmera), tela de perfil e mapa do observatório.
+- Pausa com um toque no botão Menu do controle esquerdo.
+- Tela de abertura própria (`smgvr-splash.bmp`, você pode trocar a imagem).
+
+## Dica importante: FPS e velocidade do jogo
+
+O Galaxy conta o tempo em quadros. Rodando a 90 FPS ele fica 50% mais rápido; quando o FPS cai, fica em câmera lenta.
+Este pacote já vem em **60 quadros** (velocidade normal e estável). Para mudar: menu do mod (B + Y) → aba **Jogo** → **Quadros/s** → reabra o jogo.
+
+## Controles (Quest)
+
+| Wii | Quest |
+| --- | --- |
+| Analógico (Nunchuk) | analógico esquerdo |
+| A | botão A (direito) |
+| B | gatilho direito |
+| Z / C | gatilho esquerdo / grip esquerdo |
+| Trocar de câmera | clique do analógico direito |
+| Pausa (+) | botão Menu (esquerdo), toque rápido |
+| Giro do Mario | movimento do controle |
+| Menu do mod | segurar B + Y |
+
+Feito por **MCassador**. Projeto de fã, sem fins lucrativos e sem relação com a Nintendo.

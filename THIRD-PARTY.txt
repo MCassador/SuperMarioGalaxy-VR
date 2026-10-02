@@ -1,0 +1,8 @@
+Third-party notices
+
+Khronos OpenXR headers: Apache License 2.0 (licenses/OpenXR-Apache-2.0.txt).
+The headers are used to build the VR layer (smgvr_layer.dll). No OpenXR loader is bundled.
+
+This package does not include the Dolphin emulator, Dolphin VR ReduX, or any game files.
+Dolphin is licensed under GPLv2 or later by the Dolphin Emulator Project; obtain it from its own distribution.
+Super Mario Galaxy is a trademark of Nintendo; a legally obtained copy of the game is required.
