@@ -1,3 +1,22 @@
+# Versão 1.1 (MCassador)
+
+Ajustes de câmera em primeira pessoa e novas configurações padrão.
+
+## O que mudou
+
+- **O corpo não aparece mais na frente da câmera** ao pular, andar, correr, empurrar uma parede ou subir ladeiras. A câmera vai sozinha um pouco mais para a frente enquanto o Mario se move e volta quando ele para (parado, tudo continua como antes).
+- **Opção nova no menu** (aba Câmera): *Câmera à frente: andando/pulando*, de 0 a +40 cm (padrão +20 cm).
+- **Em ladeiras e planetas inclinados** a câmera acompanha a inclinação do corpo, até uns 15 cm.
+- **Balanço de cipó:** o corpo fica sólido, o buraco do pescoço não aparece mais, e ao soltar o cipó a câmera não fica mais abaixo do chão (aparecia o fundo do espaço).
+- **Interior da cabeça** no início de pulos: o corte de proximidade da câmera passou de 5 para 22 cm.
+- **Novos valores padrão** de câmera (altura +5 cm, frente +5 cm, corte de objetos forte, HUD menor), os mesmos do autor.
+
+## Atualizando da versão 1
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. Se o seu `smgvr-menu.ini` for o da versão 1, ele é trocado pelos novos padrões e o antigo fica guardado como `smgvr-menu.ini.bak-<hora>` na mesma pasta (`Documentos\Dolphin Emulator\SMG-VR`). Se você já tem a versão 1.1, as suas configurações são mantidas.
+
+---
+
 # Versão 1 (MCassador)
 
 Primeira versão pública do Super Mario Galaxy VR.

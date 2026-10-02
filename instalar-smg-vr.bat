@@ -56,12 +56,21 @@ copy /Y "%SRC%\smgvr_layer.json" "%TARGET%\smgvr_layer.json" >nul
 if exist "%SRC%\smgvr-splash.bmp" copy /Y "%SRC%\smgvr-splash.bmp" "%TARGET%\smgvr-splash.bmp" >nul
 echo [OK] smgvr_layer.json instalado
 
-if exist "%TARGET%\smgvr-menu.ini" goto keepini
+if not exist "%TARGET%\smgvr-menu.ini" goto newini
+:: a versao 1.1 trouxe a opcao "movefwd" (camera a frente andando/pulando) e novos valores padrao de camera:
+:: quem ainda tem o arquivo da versao 1 recebe os novos padroes (o arquivo antigo fica guardado ao lado)
+findstr /b /c:"movefwd=" "%TARGET%\smgvr-menu.ini" >nul 2>&1
+if not errorlevel 1 goto keepini
+copy /Y "%TARGET%\smgvr-menu.ini" "%TARGET%\smgvr-menu.ini.bak-%T%" >nul
+copy /Y "%SRC%\smgvr-menu.ini" "%TARGET%\smgvr-menu.ini" >nul
+echo [OK] smgvr-menu.ini atualizado para os novos padroes (o anterior ficou em smgvr-menu.ini.bak-%T%)
+goto inidone
+:newini
 copy /Y "%SRC%\smgvr-menu.ini" "%TARGET%\smgvr-menu.ini" >nul
 echo [OK] smgvr-menu.ini instalado (configuracoes padrao)
 goto inidone
 :keepini
-echo [--] smgvr-menu.ini ja existe, mantendo suas configuracoes
+echo [--] smgvr-menu.ini ja esta na versao nova, mantendo suas configuracoes
 :inidone
 
 reg add "HKCU\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Implicit" /v "%TARGET%\smgvr_layer.json" /t REG_DWORD /d 0 /f >nul

@@ -1,20 +1,20 @@
 {
   "CREDITS.md": "9ae33259b5b1eda397051f4c44436fb390949cc42b5585ac6d9dc4308d1997d1",
-  "instalar-smg-vr.bat": "a8adc768d884f4217677dbdbb291212e50703fe4805706d11defb7abdcacdb78",
+  "instalar-smg-vr.bat": "47fa758a35c3fbbe411a21b982f7d61ca2342b10ac429de5e35b828c6a3a84a6",
   "INSTALL.md": "f7fe5ca13b52957952b50f3b52456a9ca699c9695c7aa90ce240992ce62ce147",
-  "KNOWN-ISSUES.md": "1392687c52dfae56a811cd2b03f85fb5389b7f88687e2309d885b8702224d6d5",
+  "KNOWN-ISSUES.md": "006598dc9e30de7bbc5130e4a2015998d9d063e268550fba5a26f86a39aa8adf",
   "licenses/OpenXR-Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-  "README.md": "b44510e85b5cbff4839ff38c90eb355da5e9fd160aee9dcf38890a802e83da6e",
-  "RELEASE_NOTES.md": "c90bb00d16d75dda240472fd0838344553807044f6737ba56f3b8642baedc044",
+  "README.md": "c33e53221571f6747179fcf7de0f612a7f6857e8debabb4a5939179df8aeb614",
+  "RELEASE_NOTES.md": "4fd9da3cab39e0626bdd1620994b4b9ecc77f64813ba70e48eb7783ff348b465",
   "SMG-VR/GameSettings-RMGE01.ini": "e1839f2e9f2e5d870bc08aff3c61784ed7486c9d30d7c269d6da879fc523fda4",
   "SMG-VR/GameSettingsVR-RMGE01.ini": "f89433afb95fce6fcda8735af88d59e3d889eefbf64dc4cef5d00fd21b296636",
   "SMG-VR/Logger.ini": "5d61da69b6868a05e4696390799670c36965e632e9c08ea167850fb726e7866f",
   "SMG-VR/Mario.ini": "f41ac412a9aa88617d2c91524972e0b180707d66b7d94d14d0383766ede21017",
-  "SMG-VR/smgvr-menu.ini": "11dea5171f60b7207aa9a0aacdc55f754e3d9f5562e97a0cacf03c9b46ec6fb4",
+  "SMG-VR/smgvr-menu.ini": "70bf4389cb3c01109fd7d49458a84c4b9217af12332434d8369fcf4ffd15e7ae",
   "SMG-VR/smgvr-splash.bmp": "9918e2d3edfd991fb565e2d3dabb802cba694a8459beccab8f6b0e9d9cb54e04",
-  "SMG-VR/smgvr_layer.dll": "82b348e00a10bab3fd7d793e1abc83fc80bc608b9ec02ee8d59cbc95101d4ab5",
+  "SMG-VR/smgvr_layer.dll": "656fb8414c4f0545ef84ccafbb31a3c554c04fbd190cd3fcac76ff359405c38d",
   "SMG-VR/smgvr_layer.json": "8c585ddccd741359a795bc81cc28fc364a3aff64abfe3ae412edadad0509bcb2",
   "SMG-VR/WiimoteNew.ini": "556deee13ec8846b4ea77ca47d2d0ee4045e6dc8bbbf428aecfdd640505b873b",
   "THIRD-PARTY.txt": "bad27d55415067e159fb64474c2bde6047e020851aeadf158c5e445b543ba180",
-  "VERSION": "f1b2f662800122bed0ff255693df89c4487fbdcf453d3524a42d4ec20c3d9c04"
+  "VERSION": "d8bb74080a94aa97d78e90f9a656c6a75216e55736f53d5433a0812c5dbc2ec4"
 }
