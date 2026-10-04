@@ -1,6 +1,6 @@
 # Super Mario Galaxy VR
 
-**Versão 1.1** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
+**Versão 1.2** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
 
 O **Super Mario Galaxy** (versão americana, RMGE01) em realidade virtual, dentro do Dolphin VR ReduX:
 primeira pessoa com o corpo, os braços e as luvas do Mario nos seus controles, três câmeras e um
@@ -29,6 +29,10 @@ Clique no analógico direito (R3) para trocar, sempre nesta ordem:
 - Corte de objetos pela direção da cabeça, para ganhar FPS (vem ligado em "forte"; dá para mudar ou desligar no menu).
 - Correções de câmera para balanço de cipó, voos entre planetas, quedas e rolagens (o corpo não passa na frente da câmera), tela de perfil e mapa do observatório.
 - Ao andar, correr, pular e subir ladeiras a câmera vai um pouco mais para a frente sozinha, para o corpo inclinado do Mario não aparecer na sua frente. A distância é ajustável no menu (aba Câmera: *Câmera à frente: andando/pulando*).
+- Fica em primeira pessoa nas conversas, cenas e saídas de planeta; a caixa de diálogo fica mais baixa, o botão A e o Sim/Não aparecem em primeira pessoa e dá para conversar de mais longe.
+- Voo da Estrela Vermelha e nado debaixo d'água guiados pela cabeça ou pelo controle direito (menu, aba Jogo); arraia e bola de rolar pelo analógico esquerdo.
+- Agachar de verdade: abaixe a cabeça e o Mario agacha.
+- Dá para desligar o som dos fragmentos de estrela e das Lumas no menu.
 - Pausa com um toque no botão Menu do controle esquerdo.
 - Tela de abertura própria (`smgvr-splash.bmp`, você pode trocar a imagem).
 
@@ -48,6 +52,8 @@ Este pacote já vem em **60 quadros** (velocidade normal e estável). Para mudar
 | Trocar de câmera | clique do analógico direito |
 | Pausa (+) | botão Menu (esquerdo), toque rápido |
 | Giro do Mario | movimento do controle |
+| Voo (Estrela Vermelha) e nado | virar: controle direito ou cabeça (menu); analógico esquerdo: subir e descer (voo) |
+| Agachar | gatilho esquerdo, ou abaixe a cabeça de verdade |
 | Menu do mod | segurar B + Y |
 
 Feito por **MCassador**. Projeto de fã, sem fins lucrativos e sem relação com a Nintendo.

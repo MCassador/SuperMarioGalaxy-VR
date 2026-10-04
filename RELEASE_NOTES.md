@@ -1,3 +1,26 @@
+# Versão 1.2 (MCassador)
+
+Conversas, voos, nado, arraia, sons e agachar de verdade.
+
+## O que mudou
+
+- **Primeira pessoa nas conversas, cenas e saídas de planeta.** O jogo não puxa mais a câmera para a terceira pessoa. Menu, aba **Jogo**: *Ficar em 1ª pessoa nas cenas* (padrão: sim).
+- **Conversas melhores:** a caixa de diálogo fica mais baixa (menu: *Caixa de dialogo*), o botão **A** aparece perto de quem fala, os botões Sim/Não ficam acima da caixa e, em primeira pessoa, dá para conversar de mais longe (2×).
+- **Arraia (fases de surfe):** a câmera não afunda mais na água quando a água-viva mergulha, e a arraia e a bola de rolar agora se guiam pelo **analógico esquerdo**.
+- **Estrela Vermelha (voo):** sem o brilho branco nas mãos; o Mario vira para onde o **controle direito** aponta (ou para onde a **cabeça** olha) e o analógico esquerdo sobe e desce. Menu, aba **Jogo**: *Direção (voo e nado)*.
+- **Nado debaixo d'água:** a mesma direção por cabeça ou controle direito, e o filtro de ondulação da água do jogo, que balançava a câmera em VR, foi desligado.
+- **Mario Mola:** a câmera fica suave nos pulinhos.
+- **Voos rápidos** (estrela de lançamento, arraia): a primeira pessoa não pisca mais quando a câmera do jogo fica para trás.
+- **Agachar de verdade:** abaixe a cabeça uns 30 cm e o Mario agacha (é o botão Z). Menu, aba **Jogo**: *Agachar de verdade* (padrão: ligado). Não vale nadando, voando nem conversando.
+- **Sons:** *Som dos fragmentos de estrela* e *Som das Lumas* podem ser desligados no menu (aba **Jogo**).
+- **Menu:** a aba **Controles** ganhou uma segunda página (voo, arraia, bola, conversa).
+
+## Atualizando
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. O seu `smgvr-menu.ini` é mantido; as opções novas entram com os valores padrão.
+
+---
+
 # Versão 1.1 (MCassador)
 
 Ajustes de câmera em primeira pessoa e novas configurações padrão.
