@@ -4,7 +4,7 @@
 
 - Windows 10/11 x64 com uma boa placa de vídeo.
 - Meta Quest 3 com Virtual Desktop (ou outro óculos com runtime OpenXR; testado só no Quest 3 com Virtual Desktop).
-- **Dolphin VR ReduX**, build com OpenXR (ramo *openxr-work*). O mesmo usado nos testes deste mod.
+- **Dolphin VR Redux** de iChris4 (https://github.com/iChris4/dolphinXR), build com OpenXR (ramo *openxr-work*). O mesmo usado nos testes deste mod.
 - A **sua** cópia do Super Mario Galaxy, versão americana (RMGE01). As versões europeia e japonesa não funcionam.
 
 ## Passo a passo
@@ -19,6 +19,10 @@
    - liga os cheats do Dolphin (sem isso os códigos não rodam);
    - guarda cópias de segurança do que substituiu na pasta `Backup` do Dolphin.
 4. Conecte o Quest ao PC (Virtual Desktop, Air Link ou Link), abra o Dolphin VR ReduX e inicie o Super Mario Galaxy (versão americana).
+
+## Usando junto com o mod do Super Mario Galaxy 2
+
+Os dois mods usam a mesma camada VR (`smgvr_layer.dll`) e podem ficar instalados no mesmo Dolphin: cada jogo tem os seus próprios códigos e configurações. Pode instalar um depois do outro, em qualquer ordem: o instalador nunca troca uma DLL mais nova por uma mais antiga. Mod do Galaxy 2: https://github.com/MCassador/SuperMarioGalaxy2-VR
 
 ## Usando
 

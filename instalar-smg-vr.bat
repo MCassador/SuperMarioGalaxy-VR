@@ -42,6 +42,11 @@ set "T=%T: =0%"
 :: ---- 1. Camada OpenXR (menu, cameras, maos) ----
 if not exist "%TARGET%" mkdir "%TARGET%"
 echo [..] Copiando smgvr_layer.dll...
+:: nunca troca uma DLL mais nova por uma mais antiga (instalar o zip de um jogo depois do de outro): compara o carimbo de data do cabecalho das duas
+set "SMG_NEW=%SRC%\smgvr_layer.dll"
+set "SMG_OLD=%TARGET%\smgvr_layer.dll"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "function T($p){ $b=[IO.File]::ReadAllBytes($p); $e=[BitConverter]::ToInt32($b,0x3C); [BitConverter]::ToUInt32($b,$e+8) }; if((Test-Path -LiteralPath $env:SMG_OLD) -and ((T $env:SMG_OLD) -gt (T $env:SMG_NEW))){ exit 3 }; exit 0"
+if errorlevel 3 goto dllmaisnova
 attrib -R "%TARGET%\smgvr_layer.dll" >nul 2>&1
 copy /Y "%SRC%\smgvr_layer.dll" "%TARGET%\smgvr_layer.dll" >nul 2>&1
 if errorlevel 1 (
@@ -51,6 +56,10 @@ if errorlevel 1 (
 )
 if errorlevel 1 goto dllfail
 echo [OK] smgvr_layer.dll instalada
+goto dlldone
+:dllmaisnova
+echo [--] Ja existe uma smgvr_layer.dll MAIS NOVA do que a deste pacote: ela foi mantida.
+:dlldone
 
 copy /Y "%SRC%\smgvr_layer.json" "%TARGET%\smgvr_layer.json" >nul
 if exist "%SRC%\smgvr-splash.bmp" copy /Y "%SRC%\smgvr-splash.bmp" "%TARGET%\smgvr-splash.bmp" >nul
@@ -73,8 +82,12 @@ goto inidone
 echo [--] smgvr-menu.ini ja esta na versao nova, mantendo suas configuracoes
 :inidone
 
+set "XRKEY=HKCU:\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Implicit"
+set "XRJSON=%TARGET%\smgvr_layer.json"
 reg add "HKCU\SOFTWARE\Khronos\OpenXR\1\ApiLayers\Implicit" /v "%TARGET%\smgvr_layer.json" /t REG_DWORD /d 0 /f >nul
 if errorlevel 1 goto regfail
+:: outras copias da MESMA camada (o pacote portatil, por exemplo) saem do registro: duas copias carregadas ao mesmo tempo duplicam a camera e o menu
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$k=$env:XRKEY; foreach($n in (Get-Item $k).Property){ if($n -like '*smgvr_layer.json' -and $n -ne $env:XRJSON){ Remove-ItemProperty -Path $k -Name $n; Write-Host ('[--] registro de outra copia da camada removido: ' + $n) } }"
 echo [OK] Camada OpenXR registrada
 
 :: ---- 2. Codigos do jogo (primeira pessoa) e configuracao de VR ----

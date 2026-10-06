@@ -1,3 +1,21 @@
+# Versão 1.3 (MCassador)
+
+Instalador mais seguro e créditos ao Dolphin VR Redux. **A camada VR e os códigos do jogo são os mesmos da versão 1.2** (nada muda dentro do jogo).
+
+## O que mudou
+
+- **Instalador (`instalar-smg-vr.bat`) mais seguro**, para quem usa também o mod do Super Mario Galaxy 2 (https://github.com/MCassador/SuperMarioGalaxy2-VR):
+  - nunca troca uma `smgvr_layer.dll` **mais nova** por uma mais antiga (instalar este zip depois do do Galaxy 2 deixava o Galaxy 2 com uma camada antiga);
+  - tira do registro do OpenXR as **outras cópias** da mesma camada (por exemplo a do pacote portátil do Galaxy 2): duas cópias carregadas ao mesmo tempo duplicavam o menu e os ajustes da câmera.
+- **Créditos ao Dolphin VR Redux**: feito por **iChris4 (Christophe)**, https://github.com/iChris4/dolphinXR. Nome e link no README, no CREDITS, no INSTALL e no THIRD-PARTY.
+- Aviso novo em KNOWN-ISSUES: programas de geração de quadros e outras camadas OpenXR de terceiros (por exemplo o OFXR Bridge) podem derrubar o Dolphin ao iniciar o jogo.
+
+## Atualizando
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. As suas configurações (`smgvr-menu.ini`) são mantidas.
+
+---
+
 # Versão 1.2 (MCassador)
 
 Conversas, voos, nado, arraia, sons e agachar de verdade.

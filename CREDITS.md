@@ -14,7 +14,7 @@
 ## Agradecimentos
 
 - **Dolphin Emulator** e a equipe do Dolphin, pelo emulador.
-- **Dolphin VR ReduX** e seus autores, pelo Dolphin com suporte a OpenXR em que o mod roda.
+- **Dolphin VR Redux** (DolphinXR), de **iChris4 (Christophe)**: https://github.com/iChris4/dolphinXR (versões oficiais em https://github.com/iChris4/dolphinXR/releases). O Dolphin com suporte a VR via OpenXR em que o mod roda.
 - **Khronos Group**, pelo OpenXR (cabeçalhos com licença Apache 2.0, veja [licenses/OpenXR-Apache-2.0.txt](licenses/OpenXR-Apache-2.0.txt)).
 
 ## Aviso
