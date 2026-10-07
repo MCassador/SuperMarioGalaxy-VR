@@ -70,6 +70,9 @@ if not exist "%TARGET%\smgvr-menu.ini" goto newini
 :: quem ainda tem o arquivo da versao 1 recebe os novos padroes (o arquivo antigo fica guardado ao lado)
 findstr /b /c:"movefwd=" "%TARGET%\smgvr-menu.ini" >nul 2>&1
 if not errorlevel 1 goto keepini
+:: a versao 1.4 gravou o ajuste com outro nome (movefwd2): tambem e um arquivo novo
+findstr /b /c:"movefwd2=" "%TARGET%\smgvr-menu.ini" >nul 2>&1
+if not errorlevel 1 goto keepini
 copy /Y "%TARGET%\smgvr-menu.ini" "%TARGET%\smgvr-menu.ini.bak-%T%" >nul
 copy /Y "%SRC%\smgvr-menu.ini" "%TARGET%\smgvr-menu.ini" >nul
 echo [OK] smgvr-menu.ini atualizado para os novos padroes (o anterior ficou em smgvr-menu.ini.bak-%T%)

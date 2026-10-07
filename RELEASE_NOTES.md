@@ -1,3 +1,26 @@
+# Versão 1.4 (MCassador)
+
+As câmeras, os braços e o menu do Galaxy 1 agora seguem o que foi feito para o Galaxy 2.
+
+## O que mudou
+
+- **Câmeras iguais às do Galaxy 2:** novos padrões de altura do olho (+20 cm) e de câmera à frente (12,5 cm), que aparecem como **0** no menu; giro do analógico direito em 45°; a terceira pessoa é a **câmera original do jogo** (a "atrás do Mario, nivelada" continua no menu, aba **Câmeras**: *Atrás do Mario, nivelada*).
+- **A câmera acompanha** o Mario ao correr rápido e ao nadar (o olho segue a cabeça quando o corpo inclina).
+- **Nado:** debaixo d'água o nariz do Mario vai para onde a cabeça olha (menu, aba **Jogo**: *Direção (voo e nado)*).
+- **Voo de planeta para planeta:** durante o voo só os braços e as luvas aparecem, e a pose de "pendurado" não liga e desliga mais.
+- **Braços:** não esticam nem torcem demais ao virar as mãos. Em tombos e ferimentos o corpo é recolhido (só braços e luvas), então as mãos e o corpo não ficam transparentes. Nadando e na Estrela Vermelha o corpo continua inteiro.
+- **Room scale:** a **altura** também se recentraliza sozinha quando você senta ou levanta e fica ali. Isso exige *Agachar de verdade* **desligado** (agora é o padrão).
+- **Corte por distância** (menu, aba **Jogo**): não desenha o que está além de 80 m (padrão *Perto*; também *Médio* 150 m, *Longe* 300 m ou *Desligado*). Pausa sozinho em cenas, conversas e voos rápidos.
+- **Velocidade normal em FPS alto:** código novo no jogo e opção *Velocidade do jogo em FPS alto* (padrão: *Acelera com o FPS*; *Normal* mantém 60 passos por segundo com 72 ou mais quadros).
+- **Giro suave** do analógico direito (opcional): menu, aba **Câmeras**: *Tipo de giro* e *Velocidade do giro suave*. O padrão continua em passos.
+- **Menu novo:** mais largo e fácil de ler, **em português e inglês** (*Idioma / Language*, primeira linha da aba **Câmeras**).
+
+## Atualizando
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. O seu `smgvr-menu.ini` é mantido, mas os ajustes de câmera *frente / trás*, *acima / abaixo* e *à frente: andando/pulando* mudaram de nome: **os valores salvos antes não são lidos** e voltam ao padrão novo. As opções novas entram com os valores padrão.
+
+---
+
 # Versão 1.3 (MCassador)
 
 Instalador mais seguro e créditos ao Dolphin VR Redux. **A camada VR e os códigos do jogo são os mesmos da versão 1.2** (nada muda dentro do jogo).

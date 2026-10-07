@@ -1,6 +1,6 @@
 # Super Mario Galaxy VR
 
-**Versão 1.3** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
+**Versão 1.4** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
 
 O **Super Mario Galaxy** (versão americana, RMGE01) em realidade virtual, dentro do Dolphin VR ReduX:
 primeira pessoa com o corpo, os braços e as luvas do Mario nos seus controles, três câmeras e um
@@ -31,7 +31,8 @@ Clique no analógico direito (R3) para trocar, sempre nesta ordem:
 - Ao andar, correr, pular e subir ladeiras a câmera vai um pouco mais para a frente sozinha, para o corpo inclinado do Mario não aparecer na sua frente. A distância é ajustável no menu (aba Câmera: *Câmera à frente: andando/pulando*).
 - Fica em primeira pessoa nas conversas, cenas e saídas de planeta; a caixa de diálogo fica mais baixa, o botão A e o Sim/Não aparecem em primeira pessoa e dá para conversar de mais longe.
 - Voo da Estrela Vermelha e nado debaixo d'água guiados pela cabeça ou pelo controle direito (menu, aba Jogo); arraia e bola de rolar pelo analógico esquerdo.
-- Agachar de verdade: abaixe a cabeça e o Mario agacha.
+- Agachar de verdade (opcional): abaixe a cabeça e o Mario agacha. Desligado, a altura da câmera se recentraliza sozinha quando você senta ou levanta.
+- Corte por distância, giro suave do analógico direito (opcional) e menu em português e inglês.
 - Dá para desligar o som dos fragmentos de estrela e das Lumas no menu.
 - Pausa com um toque no botão Menu do controle esquerdo.
 - Tela de abertura própria (`smgvr-splash.bmp`, você pode trocar a imagem).
@@ -40,6 +41,7 @@ Clique no analógico direito (R3) para trocar, sempre nesta ordem:
 
 O Galaxy conta o tempo em quadros. Rodando a 90 FPS ele fica 50% mais rápido; quando o FPS cai, fica em câmera lenta.
 Este pacote já vem em **60 quadros** (velocidade normal e estável). Para mudar: menu do mod (B + Y) → aba **Jogo** → **Quadros/s** → reabra o jogo.
+A opção **Velocidade do jogo em FPS alto** (mesma aba) vem em *Acelera com o FPS*; escolha *Normal (60 passos/s)* para manter a velocidade normal com 72 ou mais quadros.
 
 ## Controles (Quest)
 
