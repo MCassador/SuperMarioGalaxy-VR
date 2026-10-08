@@ -13,3 +13,4 @@
 - **Mod em desenvolvimento.** Se encontrar algo, envie o `smgvr.log` e diga o que estava fazendo.
 - **Programas de geração de quadros e outras camadas OpenXR de terceiros** (por exemplo o OFXR Bridge) podem derrubar o Dolphin ao iniciar o jogo (queda sem mensagem logo depois de "Requesting API version" no `dolphin.log`). Desligue o programa ou coloque `Dolphin.exe` na lista de processos excluídos dele.
 - **Novidades da 1.4 pouco testadas:** o corte por distância, o giro suave, o menu em inglês, o recentralizar da altura e os ajustes de câmera nos voos entre planetas foram testados só pelo autor e por pouco tempo.
+- **Novidades da 1.5 pouco testadas:** a correção do rastro do braço ao girar e a imagem de abertura seguindo o recentralizar foram testadas pouco no Galaxy 1.

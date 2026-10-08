@@ -1,3 +1,19 @@
+# Versão 1.5 (MCassador)
+
+Correções que vieram do trabalho no Galaxy 2.
+
+## O que mudou
+
+- **Pausa só no botão Menu do controle esquerdo:** na câmera original, empurrar o analógico direito para a esquerda (botão − do Wiimote) abria a pausa. O − não pausa mais.
+- **Rastro do braço ao girar a visão:** ao girar com o analógico direito (em passos ou suave) o braço não deixa mais um "vulto" para o lado oposto por um ou dois quadros.
+- **Imagem de abertura e tela fixa:** a imagem de abertura não cobre mais o menu do mod (B + Y), e ela e a tela fixa dos vídeos voltam para a sua frente quando você recentraliza a visão.
+
+## Atualizando
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. O seu `smgvr-menu.ini` é mantido.
+
+---
+
 # Versão 1.4 (MCassador)
 
 As câmeras, os braços e o menu do Galaxy 1 agora seguem o que foi feito para o Galaxy 2.
