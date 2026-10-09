@@ -4,17 +4,17 @@
   "INSTALL.md": "cabbb11c4c1c2355d42459024290e6566d3cb234c842682a7d3e311ce06ff13f",
   "KNOWN-ISSUES.md": "4c5b1d9e4f6009aa2c5adaf2a2be00b04f26fe6be590708c059d6993d8269812",
   "licenses/OpenXR-Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-  "README.md": "df4956e13931b15692fd3e873a1ce16cbc70bf4d7ad7d77809620f0b07b8bf70",
-  "RELEASE_NOTES.md": "436b5838dd5f0258245ae76c4a49e42ead5dcce5cbc50f6b8aa9862b75c8cf6d",
+  "README.md": "bec2a303031a0eb2e5a88d320cad4fa728fc5718c544d886a2b12c302ffae3c7",
+  "RELEASE_NOTES.md": "0c9f0b4dc706108d66a5d04bbfd4eb9f2a6b55a4b12b2d8dd9a2c06174d82526",
   "SMG-VR/GameSettings-RMGE01.ini": "03486896b862035879e77d77eb435059bcf03841a2e47d668b113f011184d611",
   "SMG-VR/GameSettingsVR-RMGE01.ini": "f89433afb95fce6fcda8735af88d59e3d889eefbf64dc4cef5d00fd21b296636",
   "SMG-VR/Logger.ini": "5d61da69b6868a05e4696390799670c36965e632e9c08ea167850fb726e7866f",
   "SMG-VR/Mario.ini": "f41ac412a9aa88617d2c91524972e0b180707d66b7d94d14d0383766ede21017",
   "SMG-VR/smgvr-menu.ini": "6d9ad155237f0aa1d9dfd0501fe95c0f4e4b147ccefccfa27c10ca4b7e6ca1be",
   "SMG-VR/smgvr-splash.bmp": "9918e2d3edfd991fb565e2d3dabb802cba694a8459beccab8f6b0e9d9cb54e04",
-  "SMG-VR/smgvr_layer.dll": "4c39c753d5b6e5c63064fe5a65159cce2e627723249f265eae12db18c660abc9",
+  "SMG-VR/smgvr_layer.dll": "05c1a1e956c903075f33bfc666e1aacd2ef818d2ded249c6ad62bd4672a91911",
   "SMG-VR/smgvr_layer.json": "8c585ddccd741359a795bc81cc28fc364a3aff64abfe3ae412edadad0509bcb2",
   "SMG-VR/WiimoteNew.ini": "556deee13ec8846b4ea77ca47d2d0ee4045e6dc8bbbf428aecfdd640505b873b",
   "THIRD-PARTY.txt": "e78fa54fe09219fa11a031fde8d7ebecb15bf775286b6d55d7de9cfb976b38f4",
-  "VERSION": "3f3ae6f85d022c669f9977e4c7a5ab80a1ab61c4a3c782e96fb65b1bbaef318a"
+  "VERSION": "187f9ed7204c6e21b90ed4df596ae146edd63bd441c1868937c8e4e2d21478b2"
 }

@@ -1,6 +1,6 @@
 # Super Mario Galaxy VR
 
-**Versão 1.6** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
+**Versão 1.7** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
 
 O **Super Mario Galaxy** (versão americana, RMGE01) em realidade virtual, dentro do Dolphin VR ReduX:
 primeira pessoa com o corpo, os braços e as luvas do Mario nos seus controles, três câmeras e um

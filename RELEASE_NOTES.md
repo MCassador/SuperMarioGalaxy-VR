@@ -1,3 +1,16 @@
+# Versão 1.7 (MCassador)
+
+## O que mudou
+
+- **HUD no pulso só na 1ª pessoa e só dentro da fase:** o painel não aparece mais nos menus; na câmera 200 e na câmera do jogo volta a HUD original.
+- **Câmera 200 e câmera do jogo:** ao levantar, sentar ou dar um passo, a câmera volta para trás do Mario em cerca de um segundo (antes ficava deslocada).
+
+## Atualizando
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. O seu `smgvr-menu.ini` é mantido.
+
+---
+
 # Versão 1.6 (MCassador)
 
 ## O que mudou
