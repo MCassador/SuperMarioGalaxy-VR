@@ -1,3 +1,19 @@
+# Versão 1.6 (MCassador)
+
+## O que mudou
+
+- **Corpo e braços não somem mais depois de um pulo ou mortal:** em tombos o corpo é recolhido por um instante, mas às vezes ficava recolhido até trocar de câmera.
+- **HUD da fase** (menu do mod, aba **Jogo**): *Fixa (como o jogo)* (padrão), *Segue a cabeça* (vida, moedas, fragmentos e estrelas deslizam para onde você olha) ou *No pulso esquerdo*:
+  - **1ª pessoa:** levante a mão esquerda como quem olha um relógio, com as costas da mão para você, e aparece um painel 3D no pulso, uma linha embaixo da outra: Vida, Estrelas, Moedas, Fragmentos e Mario (vidas). Abaixando a mão, ele some.
+  - **Câmera 200 e 3ª pessoa:** o mesmo painel fica sempre visível, no canto de baixo à esquerda da visão.
+  - Os ícones são os do jogo quando você tem o pacote de texturas HD instalado no Dolphin (`Load\Textures\<ID do jogo>`); sem ele, o painel usa formas simples.
+
+## Atualizando
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. O seu `smgvr-menu.ini` é mantido.
+
+---
+
 # Versão 1.5 (MCassador)
 
 Correções que vieram do trabalho no Galaxy 2.
