@@ -1,3 +1,17 @@
+# Versão 1.8 (MCassador)
+
+## O que mudou
+
+- **Corpo e braços acompanham o seu corpo de verdade:** ao virar o corpo na vida real (até dar a volta inteira) ou esticar os braços, o peito do Mario vira para onde estão as suas mãos e cada braço sai do ombro do lado certo. Antes, de costas para a frente da sala, os braços cruzavam e torciam, e esticar piorava.
+- **Room scale na hora:** ao andar, dar um passo ou virar o corpo, a câmera continua em cima do corpo do Mario no mesmo instante (sobra só uma folga de 5 cm para inclinar a cabeça). Antes ela esperava você ficar parado e, sem recentralizar o óculos, às vezes não voltava.
+- **Ponteiro de estrela livre na 1ª pessoa:** ele segue o controle direito para qualquer lado, também olhando para os lados, para cima ou para trás (antes parava na borda do quadro da HUD). O jogo procura o que você aponta na linha do controle, os fragmentos de estrela saem nessa direção e o mod desenha uma bolinha vermelha na ponta. Em conversas, cenas, pausa, menus e escolhas de Sim/Não volta o ponteiro normal do jogo. Novo código no jogo: *Ponteiro livre (VR)* (já vem ligado).
+
+## Atualizando
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. O seu `smgvr-menu.ini` é mantido.
+
+---
+
 # Versão 1.7 (MCassador)
 
 ## O que mudou

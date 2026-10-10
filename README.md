@@ -1,6 +1,6 @@
 # Super Mario Galaxy VR
 
-**Versão 1.7** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
+**Versão 1.8** · Windows x64 · Dolphin VR ReduX · OpenXR · Meta Quest 3 (Virtual Desktop)
 
 O **Super Mario Galaxy** (versão americana, RMGE01) em realidade virtual, dentro do Dolphin VR ReduX:
 primeira pessoa com o corpo, os braços e as luvas do Mario nos seus controles, três câmeras e um
@@ -35,6 +35,8 @@ Clique no analógico direito (R3) para trocar, sempre nesta ordem:
 - Corte por distância, giro suave do analógico direito (opcional) e menu em português e inglês.
 - Dá para desligar o som dos fragmentos de estrela e das Lumas no menu.
 - Pausa com um toque no botão Menu do controle esquerdo.
+- **Ponteiro de estrela livre** na 1ª pessoa: segue o controle direito para qualquer lado (bolinha vermelha do mod).
+- **Corpo real**: virando o corpo na vida real, andando ou esticando os braços, a câmera fica em cima do Mario na hora, o peito dele vira para as suas mãos e os braços saem dos ombros certos.
 - Tela de abertura própria (`smgvr-splash.bmp`, você pode trocar a imagem).
 
 ## Dica importante: FPS e velocidade do jogo
