@@ -1,3 +1,20 @@
+# Versão 1.9 (MCassador)
+
+## O que mudou
+
+- **O ponteiro agora acerta de qualquer direção.** A bolinha vermelha já seguia o controle direito para qualquer lado, mas o jogo só aceitava o que você apontava quando você estava de frente para o quadro da HUD. Virado de lado ou de costas, a bolinha ficava certinha em cima do alvo e nada acontecia: os fragmentos de estrela não eram pegos e os inimigos não paravam.
+  - **Por que acontecia:** a cada quadro, depois que o mod entrega a posição do ponteiro, o jogo ainda pergunta ao Wiimote do Dolphin se ele está apontando para a tela. O Dolphin calcula isso contra a tela plana da HUD, que fica parada na frente da sala; com você virado para outro lado ele respondia "fora da tela", e o jogo desligava o ponteiro antes de testar qualquer alvo.
+  - **O que mudou:** enquanto o mod controla o ponteiro, essa resposta do Dolphin é ignorada e o jogo continua usando a posição do mod, de qualquer ângulo. Onde volta o ponteiro normal do jogo (conversas, cenas, pausa, menus e escolhas de Sim/Não) nada muda, e a câmera que gira quando o ponteiro encosta na borda da tela continua como antes.
+  - Vem dentro do código *Ponteiro livre (VR)*, que já vem ligado; não precisa ligar nada.
+  - Detalhe técnico: no `updateDpdInfo` do `StarPointerController` (Galaxy 1 americano, RMGE01), o caminho "fora da tela" grava 0 no byte "na tela" do controle; a instrução que carrega esse 0 (`li r0,0` em `0x80385318`) passou a chamar uma rotina de 8 instruções que devolve 1 quando o mod está controlando o ponteiro do 1º controle. O resto do caminho mantém a posição do mod.
+- Mesmo conserto da versão 0.9 do Super Mario Galaxy 2 VR, onde foi testado com o Yoshi.
+
+## Atualizando
+
+Rode `instalar-smg-vr.bat` de novo, com o Dolphin fechado. O seu `smgvr-menu.ini` é mantido.
+
+---
+
 # Versão 1.8 (MCassador)
 
 ## O que mudou
