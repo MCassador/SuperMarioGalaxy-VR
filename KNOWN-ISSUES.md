@@ -16,4 +16,5 @@
 - **Novidades da 1.5 pouco testadas:** a correção do rastro do braço ao girar e a imagem de abertura seguindo o recentralizar foram testadas pouco no Galaxy 1.
 - **Novidades da 1.6 pouco testadas:** a HUD no pulso / na câmera 200 e a correção do corpo recolhido foram testadas pouco. Na pausa, o painel da HUD não some.
 - **Novidades da 1.8:** o ponteiro livre foi pouco testado. Correndo, a animação do próprio jogo ainda balança o peito do Mario.
+- **Novidades da 1.10:** as Star Bits pelo raio do controle e o ponteiro livre sempre ligado na câmera 200 e na câmera do jogo foram testados no Galaxy 2 (1ª pessoa); no Galaxy 1 ainda não foram testados.
 - **Novidades da 1.9:** o acerto do ponteiro de qualquer direção foi testado no Galaxy 2; no Galaxy 1 foi pouco testado.

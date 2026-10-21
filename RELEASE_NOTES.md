@@ -1,6 +1,16 @@
-# Versão 1.9 (MCassador)
+# Versão 1.10 (MCassador)
 
 ## O que mudou
+
+- **As Star Bits (fragmentos de estrela) vão para onde você aponta.** Antes elas saíam de um ponto a 3 m ao lado da câmera e caíam num ponto que não era o da bolinha vermelha ("para lugares aleatórios", "batendo em algo invisível").
+  - **Por que acontecia:** o jogo acha o ponto de queda lendo a profundidade da própria imagem plana no pixel do ponteiro. Com o ponteiro na mão ele fica sempre no centro dessa imagem, então a profundidade era a do que o jogo mostrava no centro, e não a do que o controle aponta. O ponto caía na direção certa, mas na distância errada. Além disso, o tiro começava 3 m ao lado da câmera (como se o jogador 1 atirasse do canto da tela).
+  - **O que mudou:** o ponto de queda agora é o primeiro ponto do cenário que o raio do controle atinge (se o raio não atinge nada, um ponto distante na mesma direção). A Star Bit sai da luva direita do Mario na 1ª pessoa, e do peito do Mario na câmera 200 e na câmera do jogo, e voa até a bolinha vermelha.
+  - O raio enxerga só o cenário, não os inimigos: uma Star Bit só acerta o inimigo que estiver no caminho do voo.
+  - O ponteiro livre (a bolinha vermelha do mod) agora também vale **sempre** na câmera 200 e na câmera do jogo, não só montado no Yoshi. Pausa, mapa, cenas, conversas e as escolhas de Sim/Não continuam com o ponteiro do jogo.
+  - Detalhe técnico: no código *Ponteiro livre (VR)*, um gancho logo depois do `invProject` do `StarPointerController::storeDataFromCallback` troca o `mWorldPos` pelo resultado de `MR::getFirstPolyOnLineToMap` ao longo do raio (origem e linha escritas pela camada VR numa área livre da memória baixa); outro, no fim de `StarPieceDirector::calcPosCameraShoot`, troca o ponto de partida do tiro pelo ponto que a camada escreve.
+- Mesma mudança da versão 0.10 do Super Mario Galaxy 2 VR, onde foi testada na 1ª pessoa. No Galaxy 1 ela foi pouco testada, e a câmera 200 e a câmera do jogo não foram testadas.
+
+## Mudanças da 1.9 (já vinham antes)
 
 - **O ponteiro agora acerta de qualquer direção.** A bolinha vermelha já seguia o controle direito para qualquer lado, mas o jogo só aceitava o que você apontava quando você estava de frente para o quadro da HUD. Virado de lado ou de costas, a bolinha ficava certinha em cima do alvo e nada acontecia: os fragmentos de estrela não eram pegos e os inimigos não paravam.
   - **Por que acontecia:** a cada quadro, depois que o mod entrega a posição do ponteiro, o jogo ainda pergunta ao Wiimote do Dolphin se ele está apontando para a tela. O Dolphin calcula isso contra a tela plana da HUD, que fica parada na frente da sala; com você virado para outro lado ele respondia "fora da tela", e o jogo desligava o ponteiro antes de testar qualquer alvo.
